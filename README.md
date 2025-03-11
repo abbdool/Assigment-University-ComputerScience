@@ -5,6 +5,8 @@ This repository contains all the C and C++ language assignments that I worked on
 
 ## List of Assignments
 Here is a list of assignments available in this repository:
-1. **Assignment 1: LinkList**
+1. **Assignment 1: LinkList with Queue**
 - Folder: [Zzzrot FileManager - LinkList](Zzzrot%20FileManager%20-%20LinkList/)
-2. **Coming soon**
+2. **Assigment 2: LinkList with Binary Search Traversal**
+- Folder:[Parksystem - Linklist with Binary Search Tree](Parksystem%20-%20Linklist%20with%20Binary%20Search%20Tree/)
+3. **Coming soon**
