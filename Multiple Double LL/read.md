@@ -34,27 +34,6 @@ Menghentikan Aplikasi:
 
 stop: Menghentikan eksekusi aplikasi.
 
-Contoh Input dan Output
-Sample Input	Sample Output
-insert_main	WATCHED: Again mystery 100
-Spiderman action 120	WATCHED: Prince_of_egypt historical 98
-insert_watch_later	WATCHED: 007 action 90
-007 action 90	Watch later playlist is empty!
-insert_main	
-Prince_of_egypt historical 98	
-insert_main	
-Again mystery 100	
-insert_watch_later	
-alternate mystery 100	
-insert_main	
-prussia_history historical 110	
-play	
-play	
-merge	
-play	
-merge	
-display_main	
-stop	
 Struktur Data
 Setiap film disimpan dalam struktur data dengan atribut:
 
