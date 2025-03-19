@@ -149,6 +149,7 @@ int main(){
 	char filename[101];
 	int choice;
 	while (1) {
+		system("cls");
         printf("\nZzrot File Manager\n");
         printf("1. Insert File\n");
         printf("2. Delete File\n");
@@ -158,40 +159,47 @@ int main(){
         scanf("%d", &choice);
         switch(choice){
         	case 1 : 
-        			printf("Enter filename (must end '.doc') : ");
-        			scanf("%s", name);
-        			if(strstr(name, ".doc") == NULL){
-        				printf("Error (Format must be '.doc') \n");
-        				break;
-					}
-					printf("Enter filesize (1-9999): ");
+        		system("cls");
+        		printf("Enter filename (must end '.doc') : ");
+        		scanf("%s", name);
+        		if(strstr(name, ".doc") == NULL){
+				printf("Error (Format must be '.doc') : ");
+				scanf("%s", name);
+			}
+			printf("Enter filesize (1-9999): ");
                 	scanf("%d", &size);
                 	if(size < 1 || size > 9999){
-                		printf("Error (Size must be > 1 and < 9999)");
-                		break;
-					}
-					push_pq(create(size, name));
-					printf("File inserted successfully.\n");
+                		printf("Error (Size must be > 1 and < 9999) : ");
+                		scanf("%d", &size);
+			}
+			push_pq(create(size, name));
+			printf("File inserted successfully.\n");
+			system("pause");
                 	break;
                 	
             case 2 :
-            		view();
+           		system("cls");
             		printf("Enter filename to delete : ");
             		scanf("%s", filename);
             		pop_s(filename);
+            		system("pause");
             		break;
+            		
             case 3 :
+            		system("cls");
             		view();
+            		system("pause");
             		break;
             	
             case 4:
-                pop_all();
-                printf("...\n");
-                return 0;
+	                pop_all();
+	                printf("...\n");
+	                return 0;
 
             default:
-                printf("Invalid choice. Please try again.\n");
-            	
+	                printf("Invalid choice. Please try again.\n");
+	                system("pause");
+	            	
 		}
     }
 	return 0;
