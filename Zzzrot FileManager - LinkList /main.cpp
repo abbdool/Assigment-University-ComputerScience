@@ -163,14 +163,18 @@ int main(){
         		printf("Enter filename (must end '.doc') : ");
         		scanf("%s", name);
         		if(strstr(name, ".doc") == NULL){
-				printf("Error (Format must be '.doc') : ");
-				scanf("%s", name);
+				while(strstr(name, ".doc") == NULL){
+					printf("Error (Format must be '.doc') : ");
+					scanf("%s", name);
+				}
 			}
 			printf("Enter filesize (1-9999): ");
                 	scanf("%d", &size);
                 	if(size < 1 || size > 9999){
-                		printf("Error (Size must be > 1 and < 9999) : ");
-                		scanf("%d", &size);
+				while(size < 1 || size > 9999){
+	                		printf("Error (Size must be > 1 and < 9999) : ");
+	                		scanf("%d", &size);
+				}
 			}
 			push_pq(create(size, name));
 			printf("File inserted successfully.\n");
