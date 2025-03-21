@@ -11,6 +11,8 @@ Here is a list of assignments available in this repository:
 - Folder: [Zzzrot FileManager - LinkList](Zzzrot%20FileManager%20-%20LinkList/)
 3. **Assigment 2: LinkList with Binary Search Traversal**
 - Folder: [Parksystem - Linklist with Binary Search Tree](Parksystem%20-%20Linklist%20with%20Binary%20Search%20Tree%20)
-4. **Asigment 3: TAP (Type and Play) - Film Playlist Management Terminal Application**
+4. **Assigment 3: TAP (Type and Play) - Film Playlist Management Terminal Application**
   - Folder: [Multiple - Double LL - with Merge](Multiple%20Double%20LL)
-4. **Coming Soon**
+5. **Assigment 4: BST for Game Management**
+  - Folder :[BST - management game](BST%20untuk%20Manajemen%20Koleksi%20Game)
+6. **Coming soon**
