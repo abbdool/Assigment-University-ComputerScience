@@ -5,7 +5,7 @@ This repository contains all the C and C++ language assignments that I worked on
 
 ## List of Assignments
 Here is a list of assignments available in this repository:
-1. **Basic LL**
+1. **Basic**
 - Folder: [Basic](Basic/)
 2. **Assignment 1: LinkList with Queue**
 - Folder: [Zzzrot FileManager - LinkList](Zzzrot%20FileManager%20-%20LinkList/)
