@@ -93,6 +93,7 @@ Data *pop(Data *curr, char *name){
 			curr->l = pop(curr->l, get->name);
 		}
 	}
+	return curr;
 }
 
 int main(){
@@ -129,7 +130,7 @@ int main(){
 					post(root);
 					printf("Delete data by name : ");
 					scanf("%s", name);
-					pop(root, name);
+					root = pop(root, name);
 					Data *temp = pop(root, name);
 					if(!temp){
 						printf("No data brow\n");
