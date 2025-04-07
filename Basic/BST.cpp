@@ -94,6 +94,7 @@ Data *pop(Data *curr, int angka){
 			curr->L = pop(curr->L, predecessor->angka);
 		}
 	}
+	return curr;
 }
 
 int main(){
