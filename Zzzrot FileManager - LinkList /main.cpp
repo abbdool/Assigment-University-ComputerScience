@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 typedef struct Data{
 	int p;
 	char name[1001];
@@ -11,7 +12,7 @@ typedef struct Data{
 Data *head=NULL;
 Data *tail=NULL;
 //Function for input Data
-Data *create(int p, char *name){
+Data* create(int p, char *name){
 	Data *data =(Data*)malloc(sizeof(Data));
 	data->p = p;
 	strcpy(data->name, name);
