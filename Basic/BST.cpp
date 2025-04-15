@@ -9,7 +9,7 @@ typedef struct Data{
 }Data;
 Data *Root = NULL;
 
-Data *create(int angka){
+Data* create(int angka){
 	Data *data =(Data*)malloc(sizeof(Data));
 	data->angka =angka;
 	data->L = NULL;
