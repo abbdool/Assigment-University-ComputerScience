@@ -17,7 +17,7 @@ typedef struct Data{
 Data *Root = NULL;
 int total;
 
-Data *create(char *name, char *type,char *status, int jam, char *rnd, int out){
+Data* create(char *name, char *type,char *status, int jam, char *rnd, int out){
 	Data *data = (Data*)malloc(sizeof(Data));
 	strcpy(data->name, name);
 	strcpy(data->type, type);
