@@ -17,4 +17,6 @@ Here is a list of assignments available in this repository:
   - Folder :[BST - management game](BST%20untuk%20Manajemen%20Koleksi%20Game)
 6. **Assigment 5: SUNIB Restaurant Queue Management System**
   - Folder :[SUNIB Restaurant Queue Management System](SUNIB%20Restaurant%20Queue%20Management%20System)
-7. **Coming Soon**
+7. **Assigment 6 : Beemazon AVL**
+ - Folder :[Beemazon AVL](Beemazon%20AVL)
+8. **Coming Soon**
