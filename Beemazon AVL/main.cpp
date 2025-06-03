@@ -155,7 +155,7 @@ Data* del(Data *data, long long int key){
 			data->number = pre->number;
 			data->h = pre->h;
 			strcpy(data->name, pre->name);
-			data->r = del(data->r, pre->number);
+			data->l = del(data->l, pre->number);
 		}
 	}
 	if(data) data->h = calch(data);
