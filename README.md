@@ -19,4 +19,6 @@ Here is a list of assignments available in this repository:
   - Folder :[SUNIB Restaurant Queue Management System](SUNIB%20Restaurant%20Queue%20Management%20System)
 7. **Assigment 6 : Beemazon AVL**
  - Folder :[Beemazon AVL](Beemazon%20AVL)
-8. **Coming Soon**
+8. **Assigment 7 : Min-Heap Implementation — Problem Description**
+   - Folder: [Min-Heap Implementation — Problem Description](Min-Heap%20Implementation%20—%20Problem%20Description)
+9. **Coming Soon**
